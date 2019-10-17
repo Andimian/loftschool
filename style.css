@@ -166,7 +166,7 @@ a {
 }
 .features__item {
 	display: inline-block;
-	width: 25%;
+	width: 20%;
 	margin-right: 20px;
 }
 
@@ -174,8 +174,8 @@ a {
   margin-right: 0px;
 }
 
-ul.features__list {
-	text-align: center;
+.features__list {
+  text-align: center;
 }
 
 .features__item-title {
@@ -188,17 +188,18 @@ ul.features__list {
 
 .features__desk-list {
   font-weight: 400;
-  margin: 0 0 12px 0;
-  list-style-position: inside;
   padding-top: 10px;
+  text-align: initial;
+}
+
+.features__desk-item:nth-last-child(1) {
+  margin-bottom: 0;
 }
 
 .features__desk-list li {
   list-style: disc ;
   list-style-position: inside;
   margin-bottom: 8px;
-  text-align: left;
-  margin-top: 10px;
 }
 
 .features__icon-background {
@@ -302,6 +303,10 @@ h4.top-news__date {
 
 .sidebar__pic-item {
   margin-bottom: 20px;
+}
+
+.sidebar__pic-item:nth-last-child(1) {
+  margin-bottom: 0;
 }
 
 .pagination {
