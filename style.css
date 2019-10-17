@@ -22,7 +22,7 @@ ul li {
 
 a {
 	text-decoration: none;
-	color: #fff;
+	/* color: #fff; */
 }
 
 /* --------------конец общих стилей----------------------- */
@@ -188,7 +188,6 @@ a {
 
 .features__desk-list {
   font-weight: 400;
-  padding-top: 10px;
   text-align: initial;
 }
 
@@ -200,6 +199,10 @@ a {
   list-style: disc ;
   list-style-position: inside;
   margin-bottom: 8px;
+}
+
+.features__item-text {
+  margin-bottom: 13px;
 }
 
 .features__icon-background {
@@ -234,6 +237,7 @@ a {
   font-family: 'Roboto', sans-serif;
  	font-weight: 400;
   font-size: 16px;
+  margin-bottom: 10px;
 }
 
 .last-news__main-title {
@@ -309,20 +313,45 @@ h4.top-news__date {
   margin-bottom: 0;
 }
 
+/* --------------------------------------пагинация------------- */
+
 .pagination {
   color: black;
-  text-align: center;
-  padding-bottom: 10px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; /*Центрирование по горизонтали*/
+  align-items: center;     /*Центрирование по вертикали */
+
+}
+
+.pagination__pager {
+  display: flex;
+  justify-content: center; /*Центрирование по горизонтали*/
+  align-items: center;     /*Центрирование по вертикали */
+  color: black;
 }
 
 .pagination__display {
+  display: inline-block; /* центрировать..*/
+  vertical-align: middle;  /* ..по вертикали */
+  text-align: center;
+  margin-right: 30px;
+  color: rgba(15, 14, 14, 0.32);
   display: inline-block;
 }
 
+.pagination .pagination__link--active {
+  color: white;
+}
+
 .pagination a {
-  color: black;
-  margin-right: 10px;
   cursor: pointer;
+    color: black;
+}
+
+.pagination__button {
+  margin-right: 10px;
+
 }
 
 .pagination__pager .pagination__button-next  {
@@ -339,39 +368,30 @@ h4.top-news__date {
   display: inline-block;
 }
 
-.pagination__pager {
+.pagination__link {
   display: inline-block;
-}
-
-.pagination__display {
-  text-align: center;
-  margin-right: 30px;
-  color: rgba(15, 14, 14, 0.32);
-}
-
-.pagination__pager {
+  text-align: right;
+  /* height: 30px;
+  width: 20px; */
+  padding: 3px 7px;
+  margin-right: 0:
   color: black;
 }
 
+
 .pagination__item {
-  position: relative;
+     /*Центрирование по вертикали */
+     vertical-align: bottom;
+       color: black;
 }
 
-.pagination__background--active {
-  display: block;
-  position: relative;
-  background: #27273e;
-  width: 30px;
-  height: 20px;
-  border-radius: 10%;
-
-  /* margin-right: 7px; */
+.pagination__item--active {
+/* как фон */
+border-radius: 20%;
+background-color: #27273e;
 }
 
-.pagination__background--active .pagination__link--active {
-  color: white;
-  padding: auto;
-}
+
 
 /* ----------------------------------footer--------------------- */
 .footer {
@@ -452,4 +472,5 @@ h4.top-news__date {
 .LoftSchool {
   border-bottom: 1px solid;
   font-weight: bold;
+  color: white;
 }
