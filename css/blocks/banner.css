@@ -1,0 +1,7 @@
+.banner {
+	text-align: center;
+}
+.banner__img {
+	margin: 0 auto;
+  max-width: 100%;
+}

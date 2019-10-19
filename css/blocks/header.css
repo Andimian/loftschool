@@ -1,0 +1,15 @@
+.header {
+	background-color: #131415;
+  margin-bottom: 20px;
+}
+
+.header__container {
+	height: 80px;
+	position: relative;
+}
+
+.name_header {
+	position: absolute;
+	left: 0px;
+	top: 30px;
+}

@@ -1,0 +1,46 @@
+.nav {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav__title {
+	color: rgba(255, 255, 255, 0.95);
+}
+.nav__item {
+	display: inline;
+  margin-right: 15px;
+}
+.nav__item:nth-last-child(1) {
+  margin-right: 0;
+}
+
+.nav__link:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 19px;
+  height: 14px;
+  margin-right: 7px;
+  background: center center / contain no-repeat;
+}
+
+.nav__link {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2.4px;
+    text-decoration: none;
+}
+
+.nav__link_icon_main:before {
+  background-image: url('../../img/icons/main_icon.png');
+}
+
+.link_icon_reviews:before {
+  background-image: url('../../img/icons/feed_icon.png');
+}
+
+.nav__link_services:before {
+  background-image: url('../../img/icons/service_icon.png');
+}
