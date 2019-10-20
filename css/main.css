@@ -3,12 +3,15 @@
 @import url("layout/base.css");
 
 @import url("blocks/header.css");
+@import url("blocks/breadcrumbs.css");
 @import url("blocks/banner.css");
 @import url("blocks/nav.css");
 @import url("blocks/contacts.css");
-@import url("blocks/banner.css");
 @import url("blocks/features.css");
+@import url("blocks/reviews.css");
 @import url("blocks/last_news.css");
 @import url("blocks/sidebar.css");
 @import url("blocks/pagination.css");
+@import url("blocks/form-section.css");
+@import url("blocks/partners.css");
 @import url("blocks/footer.css");

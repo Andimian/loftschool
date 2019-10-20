@@ -1,3 +1,11 @@
+.last_news__content {
+  display: flex;
+}
+
+.last_news__posts {
+  width: 80%;
+}
+
 .last_news {
   font-family: 'Roboto', sans-serif;
  	font-weight: 400;
@@ -13,18 +21,12 @@
   margin-bottom: 57px;
 }
 
-.last_news__news-content {
-  width: 800px;
-}
-
 .last-news__list {
   list-style-type: none;
   margin-bottom: 45px;
 }
 
 .last-news__item {
-  /* height: 200px; */
-  /* overflow: hidden; */
   margin-bottom: 52px;
 }
 
@@ -45,4 +47,9 @@
 
  .last-news__h4 {
   margin-bottom: 5px;
+  font-weight: bold;
+ }
+
+ .last-news__date {
+   margin-bottom: 20px;
  }

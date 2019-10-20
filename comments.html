@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Comments page</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="wrapper">
+
+    <header class='header header--comments'>
+        <div class="container header__container">
+          <a href="/" class='name name_header'>афродита</a>
+
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#" class="nav__link nav__link_icon_main">
+                  <span class="nav__title">ГЛАВНАЯ</span>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link link_icon_reviews">
+                  <span class="nav__title">ОТЗЫВЫ</span>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link nav__link_services">
+                  <span class="nav__title">УСЛУГИ</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <address class="contacts">
+            <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a>
+            <div class="contacts__hours"><a class="contacts__hours-link">График работы</a></div>
+          </address>
+        </div>
+    </header>
+
+    <nav class="breadcrumbs">
+      <div class="container breadcrumbs__container">
+        <ul class="breadcrumbs__list">
+          <li class="breadcrumbs__item">
+            <a href="#" class="breadcrumbs__link">Главная</a>
+          </li>
+          <li class="breadcrumbs__item breadcrumbs__item--active">
+            <a href="#" class="breadcrumbs__link">Отзывы</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="main_content">
+      <section class='reviews'>
+        <div class="container reviews__container">
+          <h2 class="reviews__main-title">ОТЗЫВЫ</h2>
+          <div class="list-wrapper">
+            <ul class="reviews__list ">
+              <li class="reviews__item">
+                <div class="review__avatar">
+                  <div class="avatar">
+                    <img src="./img/icons/review_1.png" class="avatar__pic" alt="">
+                  </div>
+                </div>
+                <div class="review__desc">
+                    <div class="review__date">12.10.2016</div>
+                    <h4 class="review__username">Алексей Воронов</h4>
+                    <p class="review__message">
+                      Пришел, чтобы похудеть немного к лету, но благодаря тренеру Александру Ковалеву, получилось накачать нормальные банки. Втянулся, теперь занимаюсь регулярно, 2 раза в неделю, доволен и всем советую. Кстати, польза от тренировок намного заметнее, если придерживаться ПП. Рацион мне составили на неделю, но я его повторяю, не надоедает.
+                    </p>
+                </div>
+              </li>
+              <li class="reviews__item">
+                <div class="review__avatar">
+                  <div class="avatar">
+                    <img src="./img/icons/review_2.png" class="avatar__pic" alt="">
+                  </div>
+                </div>
+                <div class="review__desc">
+                    <div class="review__date">1.02.2016</div>
+                    <h4 class="review__username">Инна Смольная</h4>
+                    <p class="review__message">
+                      Подарили на день рождения абонемент в бассейн, пришлось воспользоваться. Сама бы я сюда не пришла, не очень нравится плавать с мужиками, которые пялятся постоянно, администрации следует обратить внимание на этот вопрос! Еще бросилось в глаза хамство обслуживающего персонала. Уборщица в раздевалке вела себя, как будто это к ней в гости пришли.
+                    </p>
+                </div>
+              </li>
+              <li class="reviews__item">
+                <div class="review__avatar">
+                  <div class="avatar">
+                    <img src="./img/icons/review_3.png" class="avatar__pic" alt="">
+                  </div>
+                </div>
+                <div class="review__desc">
+                    <div class="review__date">14.08.2015</div>
+                    <h4 class="review__username">Владимир Савлельев</h4>
+                    <p class="review__message">
+                      Занимаюсь 4й месяц на петлях ТРХ и очень нравится результат. Даже знакомые отметили, что я помолодела, появилась талия, ножки постройнели. Нагрузка сначала была непривычная, но втягиваешься быстро, тем более, что отражение в зеркале радует. Цены приятные, а если платить на полгода вперед, то вообще выгодно получается, скидка почти 30%.
+                    </p>
+                </div>
+              </li>
+              <li class="reviews__item">
+                <div class="review__avatar">
+                  <div class="avatar">
+                    <img src="./img/icons/review_4.png" class="avatar__pic" alt="">
+                  </div>
+                </div>
+                <div class="review__desc">
+                    <div class="review__date">22.15.2019</div>
+                    <h4 class="review__username">Ирина Савина</h4>
+                    <p class="review__message">
+                      Норм клуб, железа хватает, но техника устаревшая. За эту цену – прокатит. Если хотите большего, то обращайтесь в специализированные тренажерки с новым железом и европейской техникой.
+                    </p>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+      </section>
+
+      <div class="pagination pagination--comments">
+        <div class="pagination__display">Страница 1 из 7</div>
+        <div class="pagination__pager">
+          <a href="#" class="pagination__button">< </a>
+          <ul class="pagination__list">
+            <li class="pagination__item pagination__item--active">
+              <a href="#" class="pagination__link pagination__link--active">1</a>
+            </li>
+            <li class="pagination__item">
+              <a href="#" class="pagination__link">2</a>
+            </li>
+            <li class="pagination__item">
+              <a href="#" class="pagination__link">3</a>
+            </li>
+            <li class="pagination__item">
+              <a href="#" class="pagination__link">4</a>
+            </li>
+            <li class="pagination__item">
+              <a href="#" class="pagination__link">5</a>
+            </li>
+            <li class="pagination__item">
+              <a href="#" class="pagination__link">6</a>
+            </li>
+            <li class="pagination__item">
+              <a href="#" class="pagination__link">7</a>
+            </li>
+          </ul>
+          <a href="#" class="pagination__button"> ></a>
+        </div>
+      </div>
+
+      <section class="banner banner--coments">
+        <div class="container banner__container">
+          <article class="banner__note">
+          Помимо перечисленных услуг, мы предоставляем консультации профессиональных диетологов, тренеров, психологов.
+           Также есть кабинет массажа, зал спа рядом с бассейном и возможность
+            арендовать центр для проведения массовых мероприятий. <b>Ждем ваших заявок!</b>
+          </<article>
+        </div>
+      </section>
+
+      <section class="form">
+        <div class="container form__container">
+          <div class='form__wrapper'>
+            <h2 class="form__title">Оставить отзыв</h2>
+            <form action="" class="form__elem">
+              <div class="form__row">
+                <label class="form__block">
+                  <div class="form__block-title">Ваше имя</div>
+                  <input placeholder="Андрей" type="text" name="" class="form__input">
+                </label>
+                <label class="form__block">
+                  <div class="form__block-title">Ссылка на профиль VK</div>
+                  <input placeholder="vk.com/example" type="text" name="" class="form__input">
+                </label>
+              </div>
+              <div class="form__row">
+                <label class="form__block">
+                  <div class="form__block-title">Текст отзыва</div>
+                  <textarea name="" class="form__input form__input--textarea" placeholder="Мне понравилось"></textarea>
+                </label>
+              </div>
+              <div class="form__row">
+                <div class="form__question">
+                  <div class="form__question-title">Отображать фото в отзыве?</div>
+                  <div class="form__question-options">
+                    <label class="option">
+                      <div class="option__radio"></div>
+                      <div class="option__title">Да</div>
+                    </label>
+                    <label class="option">
+                      <div class="option__radio"></div>
+                      <div class="option__title">Нет</div>
+                    </label>
+                  </div>
+                </div>
+                <div class="form__buttons">
+                  <input type="submit" value="Отправить">
+              </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+    <footer class='footer'>
+        <div class="container footer__container">
+          <div class="copyright">
+            Сделано с любовью и старанием
+            на курсе «HTML + CSS» в <a class="LoftSchool" href="/">LoftSchool</a>.<br/>
+            Автор работы: <b>Соколов Антон</b>
+          </div>
+          <a href="/" class='name name_footer'>афродита</a>
+          <div class="social-networks">
+            <div class="social-network-wraper"><div class="social-networks__title">
+              Наши социальные сети
+            </div>
+            <ul class="social-networks__list">
+              <li class="social-networks__item">
+                <a class='social-networks__icon-background'>
+                    <img src="img/icons/vk.png" alt="vk" class='social-networks__icon'>
+                </a>
+              </li>
+              <li class="social-networks__item">
+                <a class='social-networks__icon-background'>
+                    <img src="img/icons/fb.png" alt="fb" class='social-networks__icon'>
+                </a>
+              </li>
+              <li class="social-networks__item">
+                <a class='social-networks__icon-background'>
+                    <img src="img/icons/google.png" alt="google" class='social-networks__icon'>
+                </a>
+              </li>
+              <li class="social-networks__item">
+                <a class='social-networks__icon-background'>
+                    <img src="img/icons/twitter.png" alt="tw" class='social-networks__icon'>
+                </a>
+              </li>
+
+              <li class="social-networks__item">
+                <a class='social-networks__icon-background'>
+                    <img src="img/icons/mail.png" alt="vk" class='social-networks__icon'>
+                </a>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </div>
+    </footer>
+
+  </div>
+</body>
+</html>

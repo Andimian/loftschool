@@ -4,7 +4,15 @@
   display: flex;
   justify-content: center; /*Центрирование по горизонтали*/
   align-items: center;     /*Центрирование по вертикали */
+  margin-bottom: 15px;
+}
 
+.pagination--comments {
+  margin-bottom: 60px;
+}
+
+.pagination--comments .pagination__link--active {
+  color: #f89513;
 }
 
 .pagination__pager {

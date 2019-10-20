@@ -1,0 +1,27 @@
+.partners__wrapper {
+   width: 66%;
+   display: flex;
+   justify-content: center;
+  margin: auto;
+}
+
+.partners__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.partners__title {
+	font-size: 52px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	text-align: left;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.partners__item {
+  flex-grow: 1;
+  margin: 30px;
+
+}

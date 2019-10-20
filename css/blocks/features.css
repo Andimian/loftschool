@@ -10,6 +10,9 @@
 .features__title {
 	font-size: 3.6em;
 	text-align: center;
+	padding-top: 20px;
+	margin-bottom: 50px;
+	padding-top: 45px;
 }
 .features__item {
 	display: inline-block;

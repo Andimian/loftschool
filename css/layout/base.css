@@ -1,4 +1,9 @@
-html, body {
+* {
+  box-sizing: border-box;
+  font-style: normal;
+}
+
+ html, body {
   height: 100%;
 }
 
@@ -23,6 +28,22 @@ ul li {
   list-style: none;
 }
 
+button {
+  border: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+  font-weight: normal;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 .wrapper {
   overflow: hidden;
   min-width: 1100px;
@@ -31,13 +52,13 @@ ul li {
   flex-direction: column;
 }
 
-.wrapper_content {
+.main_content {
   flex: 1;
 }
 
 .container {
   margin: 0 auto;
-  width: 1040px;
+  width: 1058px;
 }
 
 .name {

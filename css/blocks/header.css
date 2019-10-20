@@ -4,12 +4,11 @@
 }
 
 .header__container {
-	height: 80px;
-	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 18px 0;
 }
-
-.name_header {
-	position: absolute;
-	left: 0px;
-	top: 30px;
+.header--comments {
+	margin-bottom: 40px;
 }

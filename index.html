@@ -5,45 +5,50 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Main Page</title>
   <link rel="stylesheet" href="css/main.css">
-
 </head>
 
 <body>
   <div class="wrapper">
-    <div class="wrapper_content">
+    <main class="main_content">
+
+
       <header class='header'>
         <div class="container header__container">
           <a href="/" class='name name_header'>афродита</a>
+
           <nav class="nav">
             <ul class="nav__list">
               <li class="nav__item">
                 <a href="#" class="nav__link nav__link_icon_main">
-                  <span class="nav__title">главная</span>
+                  <span class="nav__title">ГЛАВНАЯ</span>
                 </a>
               </li>
               <li class="nav__item">
                 <a href="#" class="nav__link link_icon_reviews">
-                  <span class="nav__title">отзывы</span>
+                  <span class="nav__title">ОТЗЫВЫ</span>
                 </a>
               </li>
               <li class="nav__item">
                 <a href="#" class="nav__link nav__link_services">
-                  <span class="nav__title">услуги</span>
+                  <span class="nav__title">УСЛУГИ</span>
                 </a>
               </li>
             </ul>
           </nav>
-          <div class="contacts">
+
+          <address class="contacts">
             <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a>
             <div class="contacts__hours"><a class="contacts__hours-link">График работы</a></div>
-          </div>
+          </address>
         </div>
       </header>
+
       <div class="banner">
         <div class="container">
           <img src="img/banner.jpg" alt="banner" class="banner__img">
         </div>
       </div>
+
       <section class="features">
         <div class='container'>
           <h2 class='features__title'>особенности</h2>
@@ -87,72 +92,79 @@
           </ul>
         </div>
       </section>
+
       <section class='last_news'>
-        <div class="container">
+        <div class="container last_news__container">
+
           <h2 class="last-news__main-title">ПОСЛЕДНИЕ НОВОСТИ</h2>
-          <aside class="sidebar">
-            <div class="sidebar__title">
+
+          <div class='last_news__content'>
+            <div class="last_news__posts">
+              <ul class="last-news__list">
+                <li class="last-news__item">
+                  <div class='last-news__pic-wrap'>
+                    <img src="img/last-news_img_1.png" alt="foto" class="last-news__pic last-news__pic--1">
+                  </div>
+                  <div class="last-news__desc">
+                    <div class="last-news__date">12.10.2016</div>
+                    <h4 class="last-news__h4">Похудение с помощью бодибилдинга!</h4>
+                    <p class="last-news__message">
+                      Вдыхание одного литра кислорода эквивалентно «сжиганию» 5 калорий,
+                      однако в минуту при самом высоком темпе движений атлет способен
+                       вдохнуть не более 3-4 литров кислорода. Это крайне важно для
+                       каждого начинающего атлета.
+                    </p>
+                  </div>
+                </li>
+                <li class="last-news__item">
+                  <div class='last-news__pic-wrap'>
+                    <img src="img/last-news_img_2.png" alt="last_news_foto" class="last-news__pic last-news__pic2">
+                  </div>
+                  <div class="last-news__desc">
+                    <div class="last-news__date">01.02.2016</div>
+                    <h4 class="last-news__h4">Заражай друзей, получай призы!</h4>
+                    <p class="last-news__message">
+                      Дополнительно для Вас: пользование сауной и предоставление средств личной гигиены, пользование баром, таблица замеров, дружеская атмосфера и постоянная поддержка. Мы запотимся о вашем комфорте и предлагаем испытать это уже сегодня!
+                    </p>
+                  </div>
+                </li>
+                <li class="last-news__item">
+                  <div class='last-news__pic-wrap'>
+                    <img src="img/last-news_img_3.png" alt="last_news_foto" class="last-news__pic last-news__pic3">
+                  </div>
+                  <div class="last-news__desc">
+                    <div class="last-news__date">22.12.2015</div>
+                    <h4 class="last-news__h4">Фрилансер? Выпрями спину!</h4>
+                    <p class="last-news__message">
+                      Создайте рабочее место под себя. Вот этот инструмент поможет определить, что подходит именно вам и вашему организму. Используйте специальную подставку для ноутбука, если вы проводите за ним больше 2 часов. Настройте высоту и яркость монитора!
+                    </P>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <aside class="sidebar">
+              <div class="sidebar__title">
               <h4 class='top-news__date'>топ новостей</h4>
               <div class="top-news__date top-news__date--month ">за сентябрь</div>
-            </div>
-            <ul class="sidebar__pic-list">
-              <li class="sidebar__pic-item">
-                <img src="img/sidebar_img_1.png" alt="foto-news">
-              </li>
-              <li class="sidebar__pic-item">
-                <img src="img/sidebar_img_2.png" alt="foto-news">
-              </li>
-              <li class="sidebar__pic-item">
+              </div>
+              <ul class="sidebar__pic-list">
+                <li class="sidebar__pic-item">
+                  <img src="img/sidebar_img_1.png" alt="foto-news">
+                </li>
+                <li class="sidebar__pic-item">
+                  <img src="img/sidebar_img_2.png" alt="foto-news">
+                </li>
+                <li class="sidebar__pic-item">
                 <img src="img/sidebar_img_3.png" alt="foto-news">
-              </li>
-            </ul>
-          </aside>
-
-          <div class="last_news__news-content">
-            <ul class="last-news__list">
-              <li class="last-news__item">
-                <div class='last-news__pic-wrap'>
-                  <img src="img/last-news_img_1.png" alt="foto" class="last-news__pic last-news__pic--1">
-                </div>
-                <div class="last-news__desc">
-                  <div class="last-news__date">12.10.2016</div>
-                  <h4 class="last-news__h4">Похудение с помощью бодибилдинга!</h4>
-                  <p class="last-news__message">
-                    Вдыхание одного литра кислорода эквивалентно «сжиганию» 5 калорий,
-                    однако в минуту при самом высоком темпе движений атлет способен
-                     вдохнуть не более 3-4 литров кислорода. Это крайне важно для
-                     каждого начинающего атлета.
-                  </p>
-                </div>
-              </li>
-              <li class="last-news__item">
-                <div class='last-news__pic-wrap'>
-                  <img src="img/last-news_img_2.png" alt="last_news_foto" class="last-news__pic last-news__pic2">
-                </div>
-                <div class="last-news__desc">
-                  <div class="last-news__date">01.02.2016</div>
-                  <h4 class="last-news__h4">Заражай друзей, получай призы!</h4>
-                  <p class="last-news__message">
-                    Дополнительно для Вас: пользование сауной и предоставление средств личной гигиены, пользование баром, таблица замеров, дружеская атмосфера и постоянная поддержка. Мы запотимся о вашем комфорте и предлагаем испытать это уже сегодня!
-                  </p>
-                </div>
-              </li>
-              <li class="last-news__item">
-                <div class='last-news__pic-wrap'>
-                  <img src="img/last-news_img_3.png" alt="last_news_foto" class="last-news__pic last-news__pic3">
-                </div>
-                <div class="last-news__desc">
-                  <div class="last-news__date">22.12.2015</div>
-                  <h4 class="last-news__h4">Фрилансер? Выпрями спину!</h4>
-                  <p class="last-news__message">
-                    Создайте рабочее место под себя. Вот этот инструмент поможет определить, что подходит именно вам и вашему организму. Используйте специальную подставку для ноутбука, если вы проводите за ним больше 2 часов. Настройте высоту и яркость монитора!
-                  </P>
-                </div>
-              </li>
-            </ul>
+                </li>
+              </ul>
+            </aside>
+          </div>
         </div>
+      </section>
 
-          <div class="pagination">
+      <div class="pagination">
             <div class="pagination__display">Страница 1 из 7</div>
             <div class="pagination__pager">
               <a href="#" class="pagination__button">< </a>
@@ -182,9 +194,9 @@
               <a href="#" class="pagination__button"> ></a>
             </div>
           </div>
-        </div>
-      </section>
-    </div>
+
+    </main>
+
     <footer class='footer'>
         <div class="container footer__container">
           <div class="copyright">
@@ -194,7 +206,7 @@
           </div>
           <a href="/" class='name name_footer'>афродита</a>
           <div class="social-networks">
-            <div class="social-networks__title">
+            <div class="social-network-wraper"><div class="social-networks__title">
               Наши социальные сети
             </div>
             <ul class="social-networks__list">
@@ -218,12 +230,14 @@
                     <img src="img/icons/twitter.png" alt="tw" class='social-networks__icon'>
                 </a>
               </li>
+
               <li class="social-networks__item">
                 <a class='social-networks__icon-background'>
                     <img src="img/icons/mail.png" alt="vk" class='social-networks__icon'>
                 </a>
               </li>
             </ul>
+          </div>
           </div>
         </div>
       </footer>
