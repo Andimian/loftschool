@@ -21,7 +21,7 @@
                   <span class="nav__title">ГЛАВНАЯ</span>
                 </a>
               </li>
-              <li class="nav__item">
+              <li class="nav__item nav__item--active">
                 <a href="comments.html" class="nav__link link_icon_reviews">
                   <span class="nav__title">ОТЗЫВЫ</span>
                 </a>
@@ -166,7 +166,7 @@
         <div class="container form__container">
           <div class='form__wrapper'>
             <h2 class="form__title">Оставить отзыв</h2>
-            <form action="" class="form__elem">
+            <form action="" method="GET" class="form__elem">
               <div class="form__row">
                 <label class="form__block">
                   <div class="form__block-title">Ваше имя</div>
@@ -177,30 +177,36 @@
                   <input placeholder="vk.com/example" type="text" name="" class="form__input">
                 </label>
               </div>
+
               <div class="form__row">
                 <label class="form__block">
                   <div class="form__block-title">Текст отзыва</div>
                   <textarea name="" class="form__input form__input--textarea" placeholder="Мне понравилось"></textarea>
                 </label>
               </div>
+
               <div class="form__row">
                 <div class="form__question">
-                  <div class="form__question-title">Отображать фото в отзыве?</div>
-                  <div class="form__question-options">
-                    <label class="option">
-                      <div class="option__radio"></div>
-                      <div class="option__title">Да</div>
-                    </label>
-                    <label class="option">
-                      <div class="option__radio"></div>
-                      <div class="option__title">Нет</div>
-                    </label>
-                  </div>
+                    <div class="form__question-title">
+                    Отображать фото в отзыве?
+                    </div>
+                    <div class="form__option-wrap">
+                      <label class="form__option">
+                        <input type="radio" name="display-foto" value="" class="radio">
+                        <div class="option__title">Да</div>
+                      </label>
+                      <label class="form__option">
+                        <input type="radio" name="display-foto" value="" class="radio">
+                        <div class="option__title">Нет</div>
+                      </label>
+                    </div>
                 </div>
+
                 <div class="form__buttons">
-                  <input type="submit" value="Отправить">
+                  <input type="submit" value="ОТПРАВИТЬ" class="submit">
+                </div>
               </div>
-              </div>
+
             </form>
           </div>
         </div>

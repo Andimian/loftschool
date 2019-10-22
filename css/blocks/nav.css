@@ -37,3 +37,20 @@
 .nav__link_services:before {
   background-image: url('../../img/icons/service_icon.png');
 }
+
+.nav__link_icon_main:hover:before {
+  background-image: url('../../img/icons/main_icon_color.png');
+
+}
+
+.link_icon_reviews:hover:before {
+  background-image: url('../../img/icons/feed_icon_color.png');
+}
+
+.nav__link_services:hover:before {
+  background-image: url('../../img/icons/service_icon_color.png');
+}
+
+.nav__title:hover {
+	color: #f89513;
+}
