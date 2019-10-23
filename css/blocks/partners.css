@@ -33,47 +33,11 @@
   background-repeat: no-repeat;
 }
 
-.partners__logo--1:hover {
-  background-image: url(../../img/services/logo-1_color.png);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.partners__logo--2:hover {
-  background-image: url(../../img/services/logo-2_color.png);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.partners__logo--3:hover {
-  background-image: url(../../img/services/logo-3_color.png);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.partners__logo--4:hover {
-  background-image: url(../../img/services/logo-4_color.png);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.partners__logo--5:hover {
-  background-image: url(../../img/services/logo-5_color.png);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.partners__logo--6:hover {
-  background-image: url(../../img/services/logo-6_color.png);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .partners__logo-pic {
-  max-width: 100%;
+  max-width: 80%;
+  filter: grayscale(100);
 }
 
 .partners__logo-pic:hover {
-  opacity: 0;
+  filter: grayscale(0);
 }

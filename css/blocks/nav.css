@@ -30,6 +30,10 @@
   background-image: url('../../img/icons/main_icon.png');
 }
 
+.nav__link_icon_main:hover:before ~ .nav__title{
+	color: #f89513;
+}
+
 .link_icon_reviews:before {
   background-image: url('../../img/icons/feed_icon.png');
 }
@@ -51,6 +55,6 @@
   background-image: url('../../img/icons/service_icon_color.png');
 }
 
-.nav__title:hover {
+.nav__link:hover .nav__title {
 	color: #f89513;
 }

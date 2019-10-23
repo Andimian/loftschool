@@ -35,6 +35,10 @@
   color: white;
 }
 
+.pagination .pagination__link--active-comments {
+  color: #f89513;
+}
+
 .pagination a {
   cursor: pointer;
     color: black;
@@ -62,22 +66,16 @@
 .pagination__link {
   display: inline-block;
   text-align: right;
-  /* height: 30px;
-  width: 20px; */
   padding: 3px 7px;
   margin-right: 0:
   color: black;
 }
 
-
 .pagination__item {
-     /*Центрирование по вертикали */
-     vertical-align: bottom;
        color: black;
 }
 
 .pagination__item--active {
-/* как фон */
 border-radius: 20%;
 background-color: #27273e;
 }
