@@ -71,6 +71,9 @@
   color: black;
 }
 
+.pagination__link:hover {
+  color: #f89513;
+}
 .pagination__item {
        color: black;
 }
