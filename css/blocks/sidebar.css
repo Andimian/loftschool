@@ -1,0 +1,25 @@
+.sidebar__title {
+  margin-bottom: 15px;
+}
+
+h4.top-news__date {
+  margin-top: 0;
+}
+
+.top-news__date {
+  font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+.top-news__date--month {
+  color: rgba(19, 18, 18, 0.55);
+}
+
+.sidebar__pic-item {
+  margin-bottom: 20px;
+}
+
+.sidebar__pic-item:nth-last-child(1) {
+  margin-bottom: 0;
+}

@@ -1,0 +1,84 @@
+.pagination {
+  color: black;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; /*Центрирование по горизонтали*/
+  align-items: center;     /*Центрирование по вертикали */
+  margin-bottom: 15px;
+}
+
+.pagination--comments {
+  margin-bottom: 60px;
+}
+
+.pagination--comments .pagination__link--active {
+  color: #f89513;
+}
+
+.pagination__pager {
+  display: flex;
+  justify-content: center; /*Центрирование по горизонтали*/
+  align-items: center;     /*Центрирование по вертикали */
+  color: black;
+}
+
+.pagination__display {
+  display: inline-block; /* центрировать..*/
+  vertical-align: middle;  /* ..по вертикали */
+  text-align: center;
+  margin-right: 30px;
+  color: rgba(15, 14, 14, 0.32);
+  display: inline-block;
+}
+
+.pagination .pagination__link--active {
+  color: white;
+}
+
+.pagination .pagination__link--active-comments {
+  color: #f89513;
+}
+
+.pagination a {
+  cursor: pointer;
+    color: black;
+}
+
+.pagination__button {
+  margin-right: 10px;
+
+}
+
+.pagination__pager .pagination__button-next  {
+  margin-right: 0;
+}
+
+.pagination__list {
+  display: inline-block;
+  text-align: right;
+  vertical-align: bottom;
+}
+
+.pagination__list > li {
+  display: inline-block;
+}
+
+.pagination__link {
+  display: inline-block;
+  text-align: right;
+  padding: 3px 7px;
+  margin-right: 0:
+  color: black;
+}
+
+.pagination__link:hover {
+  color: #f89513;
+}
+.pagination__item {
+       color: black;
+}
+
+.pagination__item--active {
+border-radius: 20%;
+background-color: #27273e;
+}

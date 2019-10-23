@@ -1,0 +1,43 @@
+.partners__wrapper {
+   width: 66%;
+   display: flex;
+   justify-content: center;
+  margin: auto;
+}
+
+.partners__title {
+  font-size: 52px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-align: left;
+  margin: 0 0 20px 0;
+  padding-left: 70px;
+}
+
+.partners__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.partners__item {
+  flex-grow: 1;
+  margin: 30px;
+}
+
+.partners__logo {
+  width: 160px;
+  height: 63px;
+  position: relative;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.partners__logo-pic {
+  max-width: 80%;
+  filter: grayscale(100);
+}
+
+.partners__logo-pic:hover {
+  filter: grayscale(0);
+}
