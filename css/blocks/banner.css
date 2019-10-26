@@ -12,11 +12,12 @@
 	background-image: url('../../img/Rectangle_1.png');
 	background-size: 100%;
 	margin-bottom: 54px;
+	padding: 23px 20px;
 }
 
 .banner__note {
-	max-width: 65%;
-	padding: 20px 0 30px;
+	/* max-width: 65%; */
+	/* padding: 20px 0 30px; */
 	font-size: 17px;
 	font-weight: 100;
 	line-height: 1.8;

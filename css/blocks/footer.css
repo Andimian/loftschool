@@ -19,11 +19,13 @@
 }
 
 .social-networks {
-  flex-basis: 250px;
+  /* flex-basis: 250px; */
   display: flex;
   flex-direction: column;
-  padding-left: 76px;
+  justify-content: flex-start;
+  /* padding-left: 76px; */
   font-size: 14px;
+  font-family: 'OpenSans-Bold';
 }
 
 .social-networks__item {
@@ -59,14 +61,16 @@
 .social-networks__icon-background {
   display: block;
   position: relative;
-  background: #d0d0d0;
+  background: none;
   width: 20px;
   height: 20px;
   border-radius: 50%;
+  /* filter: opacity(0); */
 }
 
 .social-networks__icon-background:hover {
   background: #f89513;
+  transition: 0.3s;
 }
 
 .social-networks__icon {

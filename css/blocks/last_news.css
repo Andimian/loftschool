@@ -2,10 +2,6 @@
   display: flex;
 }
 
-.last_news__posts {
-  width: 80%;
-}
-
 .last_news {
   font-family: 'Roboto', sans-serif;
  	font-weight: 400;
@@ -17,17 +13,21 @@
 	font-size: 52px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
-	text-align: center;
+	text-align: left;
   margin-bottom: 57px;
 }
 
 .last-news__list {
   list-style-type: none;
   margin-bottom: 45px;
+  display: flex;
+  flex-direction: column;
 }
 
 .last-news__item {
   margin-bottom: 52px;
+  display: flex;
+
 }
 
 .last-news__item:nth-last-child(1) {
@@ -41,8 +41,8 @@
 }
 
 .last-news__desc {
-  display: inline-block;
-  max-width: 500px;
+  /* display: inline-block; */
+  /* max-width: 500px; */
 }
 
  .last-news__h4 {
