@@ -42,7 +42,8 @@
 	right: 0;
 }
 
-.contacts__hours-link::after {
+
+.contacts__hours-link::before {
 	content: '';
 	display: block;
 	height: 	30px;
@@ -52,10 +53,6 @@
 	position: absolute;
 }
 
-.contacts__hours-link::after:hover ~ .menu {
-	opacity: 1;
-	right: 0;
-}
 
 .menu {
 	width: 100%;
