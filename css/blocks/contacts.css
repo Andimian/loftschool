@@ -33,7 +33,21 @@
   color: inherit;
 	position: relative;
 	display: inline-block;
+}
+
+.contacts__hours {
 	position: relative;
+}
+
+
+ .contacts__hours-link::before {
+	content: '';
+	display: block;
+	height: 	34px;
+	left: 0;
+	right: 0;
+	top: 9px;
+	position: absolute;
 }
 
 .contacts__hours-link:hover ~ .menu {
@@ -41,18 +55,6 @@
 	transition: opacity 1s;
 	right: 0;
 }
-
-
-.contacts__hours-link::before {
-	content: '';
-	display: block;
-	height: 	30px;
-	left: 0;
-	right: 0;
-	top: 15px;
-	position: absolute;
-}
-
 
 .menu {
 	width: 100%;
@@ -71,6 +73,7 @@
 .menu:hover {
 	opacity: 1;
 	right: 0;
+	transition: 1s;
 }
 
 .menu:hover ~ .contacts__hours-link {
@@ -122,4 +125,5 @@
 
 .contacts__hours:hover {
   cursor: pointer;
+
 }
