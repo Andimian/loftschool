@@ -1,10 +1,10 @@
 .form {
   color: #221f1f;
   padding-bottom: 60px;
+  width: 90%;
 }
 
   .form__wrapper {
-    width: 70%;
     background: #f5f5f5;
     margin: 0 auto;
     padding: 45px 10%;
@@ -16,14 +16,9 @@
       font-weight: bold;
     }
 
-    .form__elem {
-
-    }
-
       .form__row {
         display: flex;
         margin-bottom: 18px;
-        /* justify-content: space-between; */
       }
 
       .form__row:last-child {
@@ -115,7 +110,6 @@
             cursor: pointer; /* курсор рука */
           }
 
-
             .option__title {
               margin-right: 15px;
             }
@@ -134,3 +128,7 @@
               letter-spacing: 1px;
               cursor: pointer;
             }
+    .submit:hover {
+      background: #f89513;
+
+    }

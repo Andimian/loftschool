@@ -18,24 +18,24 @@
 	font-weight: 400;
 }
 
-.social-networks {
-  flex-basis: 250px;
-  display: flex;
-  flex-direction: column;
-  padding-left: 76px;
-  font-size: 14px;
-}
 
-.social-networks__item {
-  display: inline;
-}
-
-.social-networks-wraper {
-  align-items: flex-end;
-}
 
 .name_footer {
   flex-basis: 250px;
+  text-align: center;
+}
+
+.social-networks {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 14px;
+  font-family: 'OpenSans-Bold';
+}
+
+.social-networks-wraper {
+  /* display: flex;
+  align-items: flex-end; */
   text-align: center;
 }
 
@@ -44,7 +44,8 @@
 }
 
 .social-networks__list {
-  float: left;
+  /* float: left; */
+  text-align: center;
 }
 
 .social-networks__item {
@@ -56,27 +57,54 @@
   margin-right: 0px;
 }
 
-.social-networks__icon-background {
-  display: block;
-  position: relative;
-  background: #d0d0d0;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-}
-
-.social-networks__icon-background:hover {
+.social-networks__icon:hover {
   background: #f89513;
+  transition: 0.3s;
 }
 
 .social-networks__icon {
+  display: flex;
+   position: relative;
+   background: none;
+   transition: 0.3s;
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+ }
+
+ .social-networks__icon::before {
    position: absolute;
-   width: 10px;
-   height: 10px;
+   content: '';
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
+   position: absolute;
+   width: 20px;
+   height: 20px;
+
  }
+ .social-networks__icon--vk:before {
+   background: url('../../img/icons/spritsocial-sprites.png') -38px -33px;
+ }
+ .social-networks__icon--fb:before {
+   background: url('../../img/icons/spritsocial-sprites.png') -70px -7px;
+ }
+ .social-networks__icon--google:before {
+   background: url('../../img/icons/spritsocial-sprites.png') -7px -5px;
+ }
+ .social-networks__icon--tw:before {
+   background: url('../../img/icons/spritsocial-sprites.png') -6px -33px;
+ }
+ .social-networks__icon--mail:before {
+   background: url('../../img/icons/spritsocial-sprites.png') -41px -5px;
+ }
+
+
+
+
+
+
+
 
 .LoftSchool {
   border-bottom: 1px solid;

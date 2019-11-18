@@ -1,84 +1,56 @@
-.features {
-	background-color: #131415;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: normal;
-	color: #ffffff;
-  margin-bottom: 40px;
-  padding-bottom: 60px;
-	line-height: normal;
-}
-
-.features__title {
-	font-size: 3.6em;
-	text-align: center;
-	padding-top: 20px;
-	margin-bottom: 50px;
-	padding-top: 45px;
-}
 .features__item {
+	/* font-family: 'Open Sans', sans-serif;
+	font-weight: 100; */
+	color: #ffffff;
+	line-height: normal;
 	display: inline-block;
-	width: 20%;
-	margin-right: 20px;
+	border: 1px solid black;
+	padding: 21px 30px;
+	text-align: center;
+	margin-bottom: 58px;
+	color: rgba(33, 33, 33, 0.93);
 }
 
-.features__item:nth-last-child(1) {
-  margin-right: 0px;
-}
-
-.features__list {
-  text-align: center;
+.features__item-title-h3 {
+ margin-bottom: 21px;
+ /* font-weight: bold; */
+ font-family: 'OpenSans-Bold';
 }
 
 .features__item-title {
-  font-weight: 800;
-  font-size: 14px;
+	font-family: 'OpenSans-Bold';
+  /* font-weight: 800; */
+  font-size: 11px;
   letter-spacing: 3px;
   margin-bottom: 16px;
   margin-top: 0;
 }
 
+
+.features__item-title_uniqueness{
+	/* font-family: 'OpenSans-Bold'; */
+}
 .features__desk-list {
-  font-weight: 400;
+  font-weight: 100;
   text-align: initial;
+	font-size: 16px;
+	margin-bottom: 10px;
 }
 
 .features__desk-item:nth-last-child(1) {
   margin-bottom: 0;
 }
 
+.features__item-text {
+	margin-bottom: 21px;
+	line-height: 1.5;
+	font-family: 'OpenSans-Light';
+}
+
 .features__desk-list li {
   list-style: disc ;
   list-style-position: inside;
   margin-bottom: 8px;
-}
-
-.features__item-text {
-  margin-bottom: 13px;
-}
-
-.features__icon-background {
-  display: block;
-  position: relative;
-  background: #f89513;
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  margin: 0 auto 27px auto;
-}
-.features__icon-img {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-}
-
-.features__item-title_premium:before{
-  background-image: url('img/icons/features_2.png');
-}
-
-.features__item-title_coach:before{
-  background-image: url('img/icons/features_3.png');
+	padding-left: 10px;
+	margin-bottom: 16px;
 }
